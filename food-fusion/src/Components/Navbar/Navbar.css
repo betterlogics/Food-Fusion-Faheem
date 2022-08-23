@@ -1,0 +1,27 @@
+.a-class {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.712);
+  margin-left: 20px;
+}
+
+.b-class {
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
+
+.a-class:hover {
+  transition-duration: 0.5s;
+  color: white;
+}
+
+@media screen and (max-width: 990px) {
+  .flexwaliclass {
+    flex-direction: column;
+  }
+
+  .a-class{
+    margin: 6px;
+    padding-left: 15px;
+  }
+  
+}
